@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00ACF0"
+    >
+    <!--교재 259쪽 직접풀어보기6-2 xml코드 참고-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/br1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="#1303F4"
+            android:text="자동보기 시작" />
+        <Button
+            android:id="@+id/br2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#1303F4"
+            android:textStyle="bold"
+            android:text="자동보기 정지" />
+
+        <Button
+            android:id="@+id/br3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#1303F4"
+            android:textStyle="bold"
+            android:text="돌아가기" />
+
+    </LinearLayout>
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/ivTop1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />
+        <ImageView
+            android:id="@+id/ivTop2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+        <ImageView
+            android:id="@+id/ivTop3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/ivTop4"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/ivTop5"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/ivTop6"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/ivTop7"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/ivTop8"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:id="@+id/ivTop9"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </ViewFlipper>
+
+</TableLayout>
